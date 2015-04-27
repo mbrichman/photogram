@@ -1,0 +1,7 @@
+<%= form_for @photo do |f| %>
+  <%= f.label :image_url, 'URL' %>:
+  <%= f.text_field :image_url %><br />
+  <%= f.label :owner, 'Author' %>:
+  <%= f.text_field :owner %><br />
+  <%= f.submit %>
+<% end %>
